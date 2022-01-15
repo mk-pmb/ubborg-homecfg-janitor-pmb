@@ -1,0 +1,36 @@
+{ "name": "ubborg-homecfg-janitor-pmb",
+  "version": "0.0.2201150335",
+  "description": "Set up application configs my home directory the way I like it.",
+  "keywords": [
+    "config",
+    "home directory",
+    "ubborg"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/ubborg-homecfg-janitor-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/ubborg-homecfg-janitor-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/ubborg-homecfg-janitor-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": true,
+  "license": "ISC",
+
+  "bin": "bin/janitor.sh",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
